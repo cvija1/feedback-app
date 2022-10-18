@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import FeedbackList from "./components/FeedbackList";
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <FeedbackProvider>
       <Router>
-        <Header text="Hello" />
+        <Header text="Feedback" />
 
         <div className="container">
           <Routes>
