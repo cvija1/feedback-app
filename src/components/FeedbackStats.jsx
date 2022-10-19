@@ -9,6 +9,7 @@ const FeedbackStats = () => {
     }, 0) / feedback.length;
   //replace sluzi ako je recimo 9.0 da ispise 9
   average = average.toFixed(1).replace(/[.,]0$/, "");
+
   return (
     <div className="feedback-stats">
       <h4>{feedback.length} Reviews</h4>
